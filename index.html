@@ -1,0 +1,410 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Landing Page</title>
+        <style>
+            body{
+                padding:0px;
+                margin:0px;
+            }
+            .image{
+                height: 263px;
+                background-image: url('image.png');
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center center;
+                width: 100%;
+            }
+            h1{
+                color: #FFF;
+                font-family: Lato;
+                font-size: 100px;
+                font-style: black;
+                font-weight: 800;
+                line-height: normal;
+                padding-top: 71.5px;
+                padding-bottom: 71.5px;
+                padding-left: 72px;
+            }
+            .rect{
+                background: #E8580C;
+                height: 45px;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+                margin-top: 0;
+            }
+            h2{
+                color: #FFF;
+                font-family: Lato;
+                font-size: 25px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                padding-top: 7.5px;
+                padding-bottom: 7.5px;
+            }
+            .placeholder{
+                background: #FFF;
+                box-shadow: 2px 2px 13px 0px rgba(0, 0, 0, 0.25);
+                width: 400px;
+                height: 300px;
+                flex-shrink: 0;
+                display: flex;
+                flex-direction: column;
+                position: relative;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            h3{
+                width: 365px;
+                color: #000;
+                font-family: Lato;
+                font-size: 20px;
+                font-style: bold;
+                font-weight: 700;
+                line-height: normal;
+                margin-top: 15px;
+                margin-bottom: 0;
+                margin-left: auto;
+                margin-right: auto;
+
+            }
+            p{
+                color: #000;
+                font-family: Lato;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                width: 365px;
+                text-align: left;
+                margin: 15px;
+            }
+            .button {
+                position:absolute;
+                bottom:15px;
+                left:125px;
+                width: 150px;
+                height: 45px;
+                border-radius: 5px;
+                background: #E8580C;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                cursor: pointer;
+                border: none;
+            }
+            .button-text{
+                color: #FFF;
+                font-family: 'Lato', sans-serif;
+                font-size: 16.5px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+            .container {
+                display: flex;
+                gap: 20px;
+                padding: 15px;
+            }
+            .table{
+                font-size: 9px;
+                border: #000 1px solid;
+            }
+            .italic{
+                font-size: small;
+            }
+            .ul{
+                font-size: small;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="image">
+            <h1>Scholarship Portal</h1>
+        </div>
+        <div class="rect">
+            <h2>INSPIRE IGNITE ELEVATE MIND</h2>
+        </div>
+        <div class="container">
+            <div class="placeholder" id="1.1">
+                <h3>KALAM - PAI, FREESHIP and SCHOLAR Scholarships for MBBS & BDS</h3>
+                <ul>
+                    <li>Bachelor of Medicine and Bachelor of Surgery (MBBS) at Kasturba Medical College (KMC) Manipal, Kasturba Medical College (KMC) Mangalore and Manipal TATA Medical College (MTMC) Jamshedpur</li>
+                    <li>Bachelor of Dental Surgery (BDS) at Manipal College of Dental Sciences (MCODS) Manipal & Manipal College of Dental Sciences (MCODS) Mangalore</li>
+                </ul>
+                <button class="button" onclick="Sc1()">
+                    <span class="button-text">Check Eligibility</span>
+                </button>
+            </div>
+            <div class="placeholder" id="1.2">
+                <h3>Merit Scholarship for Post Graduate (PG) Medical / Dental and Super Specialty Programs</h3>
+                <P><i>Post Graduate (PG)-</i> MD at KMC(Manipal), MD KMC(Mangalore), MDS at MCODS(Manipal), MDS at MCODS(Mangalore)<br><br>
+                <i>Super Specialty (SS)-</i> DM at KMC(Manipal), MCh at KMC(Manipal)</P>
+                <button class="button" onclick="Sc2()">
+                    <span class="button-text">Check Eligibility</span>
+                </button>
+            </div>
+            <div class="placeholder">
+                <h3>FREESHIP, SCHOLAR and ACHIEVER Scholarships for B.Tech</h3>
+                <ul>
+                    <li>Manipal Institute of Technology (MIT)</li>
+                    <li>Manipal Institute of Technology (MIT),Bengaluru</li>
+                </ul>
+                <button class="button" onclick="Sc3()">
+                    <span class="button-text">Check Eligibility</span>
+                </button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="placeholder">
+                <h3>Scholarship for Meritorious Girl students joining MIT Manipal</h3>
+                <p>Bachelor of Technology (B.Tech) program under the GENERAL category at Manipal Institute of Technology (MIT) Manipal<br>
+                1. B.Tech Automobile Engg<br>
+                2. B.Tech Chemical Engg<br>
+                3. B.Tech Civil Engg<br>
+                4. B.Tech Industrial Engg<br>
+                5. B.Tech Mechanical Engg</p>
+                <button class="button" onclick="Sc4()">
+                    <span class="button-text">Check Eligibility</span>
+                </button>
+            </div>
+            <div class="placeholder">
+                <h3>Merit Scholarship for Post Graduate (PG) Medical / Dental and Super Specialty Programs</h3>
+                <p>MAHE Manipal offers Freeship, Scholar and Achiever scholarship to meritorious students admitted to the Bachelor of Pharmacy (B.Pharm) program at Manipal College of Pharmaceutical Sciences (MCOPS) Manipal</p>
+                <button class="button" onclick="Sc5()">
+                    <span class="button-text">Check Eligibility</span>
+                </button>
+            </div>
+            <div class="placeholder">
+                <h3>FREESHIP, SCHOLAR and ACHIEVER Scholarships for B.Tech</h3>
+                <p>Students admitted under GENERAL category to
+                    <ul>
+                        <li>Dept of Commerce (DOC), MAHE Bengaluru</li>
+                        <li>Dept of Liberal Arts, Humanities & Social Sciences (DLHS), MAHE Bengaluru</li>
+                        <li>Dept. of Public Policy (DPP), MAHE Bengaluru</li>
+                    </ul>
+                </p>
+                <button class="button" onclick="Sc6()">
+                    <span class="button-text">Check Eligibility</span>
+                </button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="placeholder">
+                <h3>Merit Scholarship for students of Manipal Law School (MLS), MAHE Bengaluru</h3>
+                <p> Students admitted under GENERAL category to<br>
+                    Manipal Law School (MLS), MAHE Bengaluru <br></p>
+                <button class="button" onclick="Sc7()">
+                    <span class="button-text">Check Eligibility</span>
+                </button>
+            </div>
+            <div class="placeholder">
+                <h3>Merit Scholarships for MTech / ME programs</h3>
+                <p> Students admitted to the Master of Technology (MTech) / Master of 
+                    Engineering (ME) program at
+                    <ul> 
+                       <li>Manipal Institute of Technology(MIT), Manipal</li>
+                       <li>Manipal School of Information Sciences(MSIS), Manipal</li>
+                    </ul>
+                </p>
+                <button class="button" onclick="Sc8()">
+                    <span class="button-text">Check Eligibility</span>
+                </button>
+            </div>
+            <div class="placeholder">
+                <h3>Scholarships for Allied Health Programs at Manipal TATA Medical College (MTMC) Jamshedpur</h3>
+                    <p>Students admitted to the following Allied Health Programs at Manipal TATA Medical College(MTMC), Jamshedpur
+                    <br>
+                    <table class="table">
+                        <tr>
+                            <td>Bachelor of Optometry (B. Optom)</td>
+                            <td>B.Sc. Cardiovascular Technology</td>
+                        </tr>
+                        <tr>
+                            <td>B.Sc. Exercise and Sports Sciences</td>
+                            <td>B.Sc. Health Information Management</td>
+                        </tr>
+                        <tr>
+                            <td>B.Sc. Medical Imaging Technology</td>
+                            <td>B.Sc. Health Information Management</td>
+                        </tr>
+                        <tr>
+                            <td>B.Sc Renal Replacement Therapy and Dialysis Technology</td>
+                        </tr>
+                    </table>
+                </p>
+                <button class="button" onclick="Sc9()">
+                    <span class="button-text">Check Eligibility</span>
+                </button>
+                </div>
+            </div>
+            <div class="container">
+            <div class="placeholder">
+                <h3> Scholar & Achiever Scholarship for All Under Graduate (UG) & Post Graduate (PG) Programs</h3>
+                <p><i class="italic">(except for MBBS, BDS, B.Tech, B.Pharm, B.Sc Nursing, B.Sc Nursing-UNB, MTech/ME, UG / PG Medical / Dental / Super
+                    Speciality, UG/PG programs of TAPMI (Manipal / Bengaluru), MAHE Bengaluru:(DOC,DPP,DLHS,MLS,SMI programs), UG / 
+                    PG programs offered by MTMC) </i><br>
+                    Under Graduate Programs (UG) and Post Graduate 
+                    Programs (PG) at Manipal, Mangalore and Bangalore Campus<br></p>
+                <button class="button" onclick="Sc10()">
+                    <span class="button-text">Check Eligibility</span>
+                </button>
+            </div>
+            <div class="placeholder">
+                <h3>Scholarships for Academy of General Education Students (SAGES)</h3>
+                <p>Students who have studied the following, from any of the Academy of General 
+                    Education (AGE) / Dr. TMA Pai Foundation institutions
+                    <ul class="ul">
+                      <li>2 years (11th & 12th) of pre-university course (PUC) for under graduate (UG) courses</li>
+                      <li>3 years of degree course (all years / semesters) for post graduate (PG) courses</li>
+                      <li>3 years (6 semesters) of Diploma for Lateral Entry to BTech courses</li>
+                    </ul> 
+                </p>   
+                <button class="button" onclick="Sc11()">
+                    <span class="button-text">Check Eligibility</span>
+                </button>
+            </div>
+            <div class="placeholder">
+                <h3>Scholarship for Students studied in Academy of General Education (AGE) Colleges</h3>
+                <p>Students who have studied the following, from 
+                    the following Academy of General Education (AGE) institutions
+                    <ul class="ul">
+                      <li>2 years (11th & 12th) of Pre-University course (PUC) for under graduate (UG) courses</li>
+                      <li>3 years of degree course (all years / semesters) for post graduate (PG) courses</li>
+                    </ul>
+                </p>
+                <button class="button" onclick="Sc12()">
+                    <span class="button-text">Check Eligibility</span>
+                </button>
+            </div>
+            </div>
+            <div  class="container">
+            <div class="placeholder">
+                <h3>Merit Scholarship for B.Sc. Nursing</h3>
+                <p><i class="italic">(Not applicable for B.Sc.Nursing – UNB program)</i><br><br>
+                    Students admitted to B.Sc. Nursing program offered by Manipal College of Nursing 
+                    (MCON), Manipal</p>
+                <button class="button" onclick="Sc13()">
+                    <span class="button-text">Check Eligibility</span>
+                </button>
+            </div>
+            <div class="placeholder">
+                <h3>Manipal Foundation - MAHE Scholarships</h3>
+                <p>Students who have undergone the Scholar Program supported  by Manipal Foundation and admitted in the following programs
+                    <ul>
+                        <li>UG Allied Health Sciences</li>
+                        <li>B.Sc.Nursing</li>
+                        <li>DPharm</li>
+                        <li>BPharm</li>
+                    </ul>
+                </p>
+                <button class="button" onclick="Sc14()">
+                    <span class="button-text">Check Eligibility</span>
+                </button>
+            </div>
+            <div class="placeholder">
+                <h3>Merit Scholarship for BTech (Lateral Entry) Students from Manipal Group Polytechnic Institutions</h3>
+                <p>Students admitted to Bachelor of Technology (B.Tech) programs offered by Manipal Institute of Technology(MIT), Manipal, under the Lateral Entry scheme, from the following institutions
+                    <ul class="ul">
+                        <li>Dr. TMA Pai Polytechnic, Manipal (under Dr. TMA Pai Foundation)</li>
+                        <li>SNM Polytechnic, Moodabidri (under Academy of General Education)</li>
+                    </ul>
+                </p>
+                <button class="button" onclick="Sc15()">
+                    <span class="button-text">Check Eligibility</span>
+                </button>
+                </div>
+            </div>
+            <div class="container">
+            <div class="placeholder">
+                <h3>Merit Scholarships for International Students</h3>
+                <p><i class="italic">(except for UG / PG / SS, Medical / Dental, TAPMI programs)</i><br><br>International / Indian nationals students admitted to Under 
+                    Graduate (UG) and Post Graduate (PG) programs under the Foreign / NRI / NRI Sponsored category</p>
+                <button class="button" onclick="Sc16()">
+                    <span class="button-text">Check Eligibility</span>
+                </button>
+            </div>
+            <div class="placeholder">
+                <h3>Scholarship for Konkani Speaking Students</h3>
+                <p>10 % fee waiver of course fee as scholarship, to candidates admitted to under graduate (UG) and post 
+                    graduate (PG) programs ONLY, whose mother tongue is Konkani</p>
+                <button class="button" onclick="Sc17()">
+                    <span class="button-text">Check Eligibility</span>
+                </button>
+            </div>
+            <div class="placeholder">
+                <h3> Merit Scholarship for Children of MAHE Manipal Alumni</h3>
+                <p><i class="italic">(Except for PG Medical / Dental, Super Specialty programs)</i><br><br>
+                    Students admitted under the GENERAL category, for all under graduate (UG) 
+                    and post graduate (PG) full time programs, whose father or mother has studied (Full Time) and graduated from the MAHE 
+                    Manipal Institutions </p>
+                <button class="button" onclick="Sc18()">
+                    <span class="button-text">Check Eligibility</span>
+                </button>
+            </div>
+        </div>
+        <script>
+            function Sc1() {
+                window.location.href = "scholarship1.html";
+            }
+            function Sc2() {
+                window.location.href = "scholarship2.html";
+            }
+            function Sc3() {
+                window.location.href = "scholarship3.html";
+            }
+            function Sc4() {
+                window.location.href = "scholarship4.html";
+            }
+            function Sc5() {
+                window.location.href = "scholarship5.html";
+            }
+            function Sc6() {
+                window.location.href = "scholarship6.html";
+            }
+            function Sc7() {
+                window.location.href = "scholarship7.html";
+            }
+            function Sc8() {
+                window.location.href = "scholarship8.html";
+            }
+            function Sc9() {
+                window.location.href = "scholarship9.html";
+            }
+            function Sc10() {
+                window.location.href = "scholarship10.html";
+            }
+            function Sc11() {
+                window.location.href = "scholarship11.html";
+            }
+            function Sc12() {
+                window.location.href = "scholarship12.html";
+            }
+            function Sc13() {
+                window.location.href = "sc13.html";
+            }
+            function Sc14() {
+                window.location.href = "sc14.html";
+            }
+            function Sc15() {
+                window.location.href = "sc15.html";
+            }
+            function Sc16() {
+                window.location.href = "sc16.html";
+            }
+            function Sc17() {
+                window.location.href = "sc17.html";
+            }
+            function Sc18() {
+                window.location.href = "sc18.html";
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,314 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Scholarship 5</title>
+        <style>
+            body{
+                padding:0px;
+                margin:0px;
+            }
+            .image{
+                height: 263px;
+                background-image: url('image.png');
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center center;
+                width: 100%;
+            }
+            h1{
+                color: #FFF;
+                font-family: Lato;
+                font-size: 60px;
+                text-align: center;
+                font-style: black;
+                font-weight: 800;
+                line-height: normal;
+            }
+            .rect{
+                background: #E8580C;
+                height: 45px;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+                margin-top: 0;
+            }
+            h2{
+                color: #FFF;
+                font-family: Lato;
+                font-size: 25px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                padding-top: 7.5px;
+                padding-bottom: 7.5px;
+            }
+            .placeholder{
+                background: #FFF;
+                box-shadow: 2px 2px 13px 0px rgba(0, 0, 0, 0.25);
+                width: 1000px;
+                height: 600px;
+                flex-shrink: 0;
+                display: flex;
+                flex-direction: column;
+                position: relative;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            h3{
+                width: 350px;
+                color: #E8580C;
+                text-align: center;
+                font-family: Lato;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                margin-top: 138px;
+                margin-bottom: 0;
+                margin-left: auto;
+                margin-right: 78px;
+
+            }
+            .text{
+                color: #000;
+                font-family: Lato;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                text-align: left;
+                margin: auto;
+                width: 1152px;
+                padding-top:60px;
+            }
+            button {
+                width: 150px;
+                height: 45px;
+                border-radius: 5px;
+                background: #E8580C;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                cursor: pointer;
+                border: none;
+                margin-top: 278px;
+                margin-right: 178px;
+            }
+            .button-text{
+                color: #FFF;
+                font-family: 'Lato', sans-serif;
+                font-size: 16.5px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+            .form-container {
+                display: flex;
+                justify-content: space-between;
+                align-items:center;
+            }
+
+            .form-container .form-left {
+                flex: 1;
+                padding-left: 78px;
+                padding-top: 85px;
+                margin: auto;
+            }
+
+            .form-container .form-right {
+                flex: 1;
+                text-align: center;
+            }
+
+            input[type="text"],select {
+                border-radius: 2px;
+                border: 1.5px solid #000;
+                background: #FFF;
+                width: 350px;
+                height: 40px;
+                flex-shrink: 0;
+                margin-bottom: 16px;
+            }
+            label{
+                color: #000;
+                font-family: Lato;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: normal;
+            }
+            table {
+                border-collapse: collapse;
+                width: 100%;
+                margin-block: 10px;
+            }
+
+            th, td {
+                border: 1px solid #000;
+                padding: 10px;
+                text-align: left;
+            }
+
+            th {
+                background-color: #FFE598;
+            }
+
+            td {
+                width: 20px;
+            }
+            p{
+                color: #E8580C;
+                font-family: Lato;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: normal;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="image">
+            <h1><br>Freeship, Scholars and Achiever Scholarship for B.Pharm  </h1>
+        </div>
+        <div class="rect">
+            <h2>INSPIRE IGNITE ELEVATE MIND</h2>
+        </div>
+        <div class="placeholder">
+            <div class="form-container">
+                <div class="form-left">
+                    <form>
+                        <label for="name">Name:</label><br>
+                        <input type="text" id="name" name="name"><br>
+        
+                        <label for="app-number">Application Number:</label><br>
+                        <input type="text" id="app-number" name="app-number"><br>
+        
+                        <label for="program">Program:</label><br>
+                        <select id="program" name="program">
+                            <option value="MBBS">B.Pharm (MCOPS)</option>
+                        </select><br>
+        
+                        <label for="prev-education">Previous Education:</label><br>
+                        <select id="prev-education" name="prev-education">
+                            <option value="Board">10+2 examination</option>
+                           // <option value="BDS">BDS</option>
+                            //<option value="DM">DM</option>
+                        </select><br>
+        
+                        <label for="Marks">Marks in 10+2 examination:</label><br>
+                        <input type="text" id="Marks" name="Marks"><br>
+
+			<label for="last-institution">Last Institution Name (with Board name):</label><br>
+                        <input type="text" id="last-institution" name="last-institution"><br>
+                    </form>
+                </div>
+                <div class="form-right">
+                    <h3>Fill the form to check eligibility</h3>
+                    <button type="submit">
+                        <span class="button-text">Check Eligibility</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="text">
+            MAHE Manipal offers Freeship, Scholar and Achiever scholarship to meritorious students admitted to the Bachelor of Pharmacy 
+(B.Pharm) program at Manipal College of Pharmaceutical Sciences (MCOPS) Manipal 
+
+            <p>Scholarship Guidelines:</p>
+            <li>Eligibility Requirements</li>
+            <table>
+                <tr>
+                    <th>Program</th>
+                    <th>Freeship 
+MET Rank Range </th>
+<th>Scholar 
+MET Rank Range  </th>
+<th>Freeship + Scholar 
+Scholarship seats  </th>
+<th>Achiever 
+Scholarship Seats</th>
+                </tr>
+                <tr>
+                    <td>BPharm</td>
+                    <td>1 - 50 </td>
+<td>1 - 100</td>
+<td>4 </td>
+<td>4</td>
+                </tr>
+                
+            </table>
+          
+            
+           
+<ul>
+		<ul>“Achiever” Scholarship constitute top 5 % of the general category intake and is applicable at the beginning of 2nd year, 
+3rd year and 4th year based on the annual academic performance of the immediate previous year i.e. 1st year, 2nd year 
+and 3rd year  
+			<li>Transfer students are NOT eligible for this scholarship in the year of admission. Based on performance, they 
+will be eligible for 3rd & 4th year scholarship, as per guidelines.  </li>
+<table>
+                <tr>
+                    <th>Program Year 
+</th>
+                    <th>Semester performance</th>
+
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Not Applicable</td>
+
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Sem 1 + Sem 2 </td>
+
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Sem 3 + Sem 4 </td>
+
+                </tr>
+<tr>
+                    <td>4</td>
+                    <td>Sem 5 + Sem 6 </td>
+
+                </tr>
+
+            </table>
+
+		
+	<li>Merit list will be prepared after the declaration of re-evaluation results of regular end semester examination 
+(Sem 2, Sem 4 and Sem 6) </li>
+<li>Minimum annual academic performance requirement to become eligible for this scholarship is 8 CGPA with 
+no backlogs  </li><li>
+<ul>In case of students with the same annual CGPA, the tie will be broken using the following criteria
+<li>No. of subjects with maximum number of A+ / ≥ 90% of marks </li>
+<li>No. of subjects with maximum number of A / ≥ 80% marks </li>
+<li>Student with highest aggregate marks </li>
+<li>Student with best aggregate attendance percentage </li></ul></li>
+<li>There will be NO scholarship based on the performance in the final year. </li>
+</ul>
+            <ul>The Achiever scholarship involves 20 % waiver of the course fee 
+                <li>The Candidates admitted under Achiever category will have to take care of other expenses such as hostel 
+accommodation, food, books etc.  </li></ul>
+<ul>In addition, 
+                <li>Students, who are promoted to next year with failures (F) / Incomplete (I) / Detention (DT) grades, will NOT 
+be eligible for scholarship for that academic year.  </li>
+                <li>The scholarship will be forfeited in the instances of irregularity in attendance, proven charges of indiscipline, 
+bringing disrepute to the Department / Institution / University etc. </li>
+                </ul>
+                <li>In case the Achiever category scholar leaves the course before the course completion (for any reason), he / she MUST 
+reimburse the total Course (as per Prospectus 2024) fee for the years of scholarship utilized, back to MAHE Manipal </li>
+                
+            </ul>
+<br>
+<p> <b>Note </b><br>
+Based on the annual performance in the said program, the students entitled for “Achievers” scholarship may vary. </p>
+        </div>
+    </body>
+</html>
