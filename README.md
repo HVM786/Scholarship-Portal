@@ -4,12 +4,9 @@ With our professor, Dr Raghavendra S, and the university's finance‬ department
 
 ## About Dr Raghavendra S
 Associate Professor in the Information and Communication Technology Department at Manipal Institute of Technology.
-1. Area of Interest
-Cloud Computing, Deep Learning, Machine Learning, Internet of Things
-2. Area of Expertise
-Cloud Computing, Deep Learning, Machine Learning, Internet of Things
-3. Area of Research
-Cloud Computing, Deep Learning, Machine Learning, Internet of Things
+1. Area of Interest: Cloud Computing, Deep Learning, Machine Learning, Internet of Things
+2. Area of Expertise: Cloud Computing, Deep Learning, Machine Learning, Internet of Things
+3. Area of Research: Cloud Computing, Deep Learning, Machine Learning, Internet of Things
 
 ## About us:
 ### 1. Harshita Gupta
