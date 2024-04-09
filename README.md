@@ -1,6 +1,12 @@
 # Scholarship Portal for Manipal Academy of Higher Education
 
 With our professor, Dr Raghavendra S, and the university's finance‬ department, we're developing a user-friendly scholarship portal using‬ HTML, CSS, and JavaScript. It allows students to check eligibility for‬ various scholarships quickly and provides clear contact information for‬ inquiries, streamlining the application process for a comfortable‬ experience.
+## Technologies Used
+![VSCode](https://img.shields.io/badge/-VSCode-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white) 
+![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat-square&logo=html5&logoColor=white) 
+![CSS](https://img.shields.io/badge/-CSS-1572B6?style=flat-square&logo=css3&logoColor=white) 
+![JS](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
 
 ## About Dr Raghavendra S
 Associate Professor in the Information and Communication Technology Department at Manipal Institute of Technology.
