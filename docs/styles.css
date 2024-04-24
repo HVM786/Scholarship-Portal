@@ -184,43 +184,60 @@ p {
     line-height: normal;
 }
 @media only screen and (max-width: 600px) {
-    .form-container {
-        flex-direction: column;
+    .image {
+        height: 150px; /* Smaller image section for mobile */
     }
 
-    .form-left, .form-right {
-        width: 100%;
-        padding: 0 15px;
-    }
-
-    .form-right {
-        order: 1; /* Place the heading and button above the form on small screens */
-        text-align: center;
-    }
     h1 {
-        font-size: 20px;
-        padding: 20px;
-    }
-    h3 {
-        margin-top: 20px;
+        font-size: 24px; /* Adjust headline size for smaller screens */
+        padding: 10px; /* Reduce padding */
     }
 
-    form {
-        margin-top: 20px;
-    }
-
-    button {
-        width: auto;
-        padding: 10px 20px;
-        margin: 10px auto; /* Center the button */
-    }
-
-    input[type="text"], input[type="number"], select {
-        width: calc(100% - 30px); /* Full width minus padding */
-        box-sizing: border-box; /* Include padding and border in width */
+    .rect, h2 {
+        font-size: 18px; /* Smaller subtitle */
     }
 
     .placeholder {
-        flex-direction: column;
+        width: 90%; /* Make placeholder take full width minus a small margin */
+        padding: 20px; /* Add some padding inside the placeholders */
+        box-sizing: border-box; /* Includes padding in width calculation */
+    }
+
+    .form-container {
+        flex-direction: column; /* Stack form elements vertically */
+    }
+
+    .form-left, .form-right {
+        width: 100%; /* Full width for form sections */
+        padding: 15px; /* Appropriate padding for form elements */
+        text-align: center; /* Center align the content */
+    }
+
+    h3 {
+        width: auto; /* Allow h3 to adjust according to the container width */
+        margin: 20px 0; /* Adjust margins around h3 */
+    }
+
+    input[type="text"], input[type="number"], select, label {
+        width: calc(100% - 30px); /* Adjust input width to ensure it fits within the form container */
+        margin: 5px 0; /* Reduce margin for a compact look */
+    }
+
+    button {
+        width: 100%; /* Full-width buttons */
+        margin: 20px 0; /* Add margin around the button for clarity */
+    }
+
+    .text {
+        width: auto; /* Allow text block to fill the available space */
+        padding: 15px; /* Padding around text content for better readability */
+    }
+
+    table {
+        width: 100%; /* Full width tables */
+    }
+
+    th, td {
+        padding: 8px; /* Smaller padding in table cells */
     }
 }
