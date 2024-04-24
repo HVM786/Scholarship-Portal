@@ -199,7 +199,6 @@ p {
 
     .placeholder {
         width: 90%; /* Make placeholder take full width minus a small margin */
-        padding: 20px; /* Add some padding inside the placeholders */
         box-sizing: border-box; /* Includes padding in width calculation */
     }
 
@@ -210,7 +209,7 @@ p {
     .form-left, .form-right {
         width: 100%; /* Full width for form sections */
         padding: 15px; /* Appropriate padding for form elements */
-        text-align: center; /* Center align the content */
+        text-align: left; /* Center align the content */
     }
 
     h3 {
@@ -220,7 +219,8 @@ p {
 
     input[type="text"], input[type="number"], select, label {
         width: calc(100% - 30px); /* Adjust input width to ensure it fits within the form container */
-        margin: 5px 0; /* Reduce margin for a compact look */
+        margin: 5px 0;
+        font-size: 15px;
     }
 
     button {
@@ -229,6 +229,7 @@ p {
     }
 
     .text {
+        font-size: 15px;
         width: auto; /* Allow text block to fill the available space */
         padding: 15px; /* Padding around text content for better readability */
     }
