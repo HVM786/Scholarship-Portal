@@ -229,9 +229,11 @@ p {
     }
 
     .text {
-        font-size: 15px;
         width: auto; /* Allow text block to fill the available space */
         padding: 15px; /* Padding around text content for better readability */
+    }
+    p, ul, label{
+        font-size: 15px;
     }
 
     table {
