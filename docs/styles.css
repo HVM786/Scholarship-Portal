@@ -199,7 +199,6 @@ p {
 
     .placeholder {
         width: 90%; /* Make placeholder take full width minus a small margin */
-        box-sizing: border-box; /* Includes padding in width calculation */
     }
 
     .form-container {
@@ -224,8 +223,8 @@ p {
     }
 
     button {
-        width: 100%; /* Full-width buttons */
-        margin: 20px 0; /* Add margin around the button for clarity */
+        width: 60%; /* Full-width buttons */
+        margin: 20% 0; /* Add margin around the button for clarity */
     }
 
     .text {
