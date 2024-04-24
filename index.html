@@ -14,7 +14,7 @@
             }
             .image {
                 height: 263px;
-                background-image: url('image.png');
+                background-image: url('docs/image.png');
                 background-size: cover;
                 background-repeat: no-repeat;
                 background-position: center center;
@@ -129,6 +129,15 @@
                 .placeholder {
                     width: 90%;
                     margin: 10px auto;
+                }
+                h3, p {
+                    width: auto; /* Allow text width to adjust to card width */
+                    padding: 0 15px; /* Add padding to prevent text from touching the edges */
+                    text-align: center; /* Optional: Center-align the text for better aesthetics on mobile */
+                }
+                .button {
+                    width: 80%; /* Make button width responsive */
+                    left: 10%; /* Adjust left position for full width button */
                 }
             }
         </style>
