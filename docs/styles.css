@@ -183,3 +183,41 @@ p {
     font-weight: 900;
     line-height: normal;
 }
+@media only screen and (max-width: 600px) {
+    .form-container {
+        flex-direction: column;
+    }
+
+    .form-left, .form-right {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .form-right {
+        order: 1; /* Place the heading and button above the form on small screens */
+        text-align: center;
+    }
+
+    h3 {
+        margin-top: 20px;
+    }
+
+    form {
+        margin-top: 20px;
+    }
+
+    button {
+        width: auto;
+        padding: 10px 20px;
+        margin: 10px auto; /* Center the button */
+    }
+
+    input[type="text"], input[type="number"], select {
+        width: calc(100% - 30px); /* Full width minus padding */
+        box-sizing: border-box; /* Include padding and border in width */
+    }
+
+    .placeholder {
+        flex-direction: column;
+    }
+}
