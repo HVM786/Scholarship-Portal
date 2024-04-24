@@ -197,7 +197,10 @@ p {
         order: 1; /* Place the heading and button above the form on small screens */
         text-align: center;
     }
-
+    h1 {
+        font-size: 20px;
+        padding: 20px;
+    }
     h3 {
         margin-top: 20px;
     }
